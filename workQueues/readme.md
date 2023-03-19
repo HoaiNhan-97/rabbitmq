@@ -32,3 +32,4 @@ In order to defeat that we can use the prefetch method with the value of 1. This
 
 #### 6. Result 
 
+<img src="../imgs/workQueue_Result.png">
