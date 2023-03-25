@@ -18,6 +18,9 @@ we need to tell the exchange send messages to our queue. The relationship betwee
 ### because our exchange' type is fanout so  route_key is an empty string.
 </p>
 
+### 3. Fanout exchange
+The fanout exchange is very simple. As you can probably guess from the name, it just broadcasts all the messages it receives to all the queues it knows. And that's exactly what we need for our logger
+
 # Algorithm
 ### 1. Publish
   - 1.1 create connection to rabbitmq server 
